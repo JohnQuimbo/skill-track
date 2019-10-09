@@ -1,0 +1,45 @@
+.skill{
+  border: 10px solid rgb(204, 204, 204);
+  width: 550px;
+  height: 550px;
+  background: darkgrey
+}
+
+img {
+  border-radius: 8px;
+  position: absolute;
+  top: 110px;
+  left: 75px;
+}
+
+h1{
+  font-family: OCR A Std, monospace;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 45px;
+}
+
+h2{
+  font-family: OCR A Std, monospace;
+  position: absolute;
+  top: 12px;
+  left: 330px;
+  font-size: 45px;
+}
+
+button {
+  font-family: OCR A Std, monospace;
+  position : absolute;
+  top: 475px;	
+  left : 225px;
+  font-size: 24px;
+}
+
+p{
+  font-family: OCR A Std, monospace;
+  position: absolute;
+  top: 406px;
+  left: 85px;
+  font-size: 20px;	
+}
