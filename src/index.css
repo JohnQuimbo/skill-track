@@ -1,8 +1,16 @@
+html {
+  background-color: darkslategray
+}
+
 .skill{
-  background-color: lightblue;
+  background-color: white;
   display: inline-block;
   border-radius: 8px;
   position: relative;
+  padding: 100px;
+  border-style: groove;
+  border-color: black;
+  margin: 5px;
 }
 
 .skill h1{
@@ -25,19 +33,34 @@
 
 .skill img{
   display: block;
-  padding-top : 20 px;
+  padding-top : 10 px;
   margin-left: auto;
   margin-right: auto;
-  width: 8em;
+  width: 16em;
   border-radius: 8px;
-  padding : 10px;
+  padding : 5px;
+  height : 200px;
+  width : 200px;;
 }
 
-.skill button{
+.skill .levelUp{
   font-family: OCR A Std, monospace;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  width: 16em;
+  height:4em;
+}
+
+.skill .questLog{
+  font-family: OCR A Std, monospace;
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  width: 16em;
+  height:4em;
 }
 
 .skill p{
