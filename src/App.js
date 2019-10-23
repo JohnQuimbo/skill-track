@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Skill from "./Skill"
+import Navbar from "./Navbar"
 
 const drumChallenges = [
   {
@@ -50,6 +51,9 @@ class App extends React.Component {
     const challenge = drumChallenges[this.state.count];
     return(
       <div className="App">
+        
+        
+        
         <Skill 
           name="Drums" 
           imgUrl="https://images-na.ssl-images-amazon.com/images/I/81kXfzLBExL._SX425_.jpg" 
@@ -57,6 +61,9 @@ class App extends React.Component {
           level= {this.state.count}
           onClick={this.handleClick}  
         />
+
+
+
       </div>
     )
   }
