@@ -7,7 +7,7 @@ function Skill(props){
         <h2>Level: {props.level}</h2>
         <img src ={props.imgUrl}/>
         <button className = "levelUp" onClick={props.onClick}>Level Up!</button>
-        <button className = "questLog">Challenges</button>
+        <button className = "questLog">Quests</button>
     </div>
     )
 }
