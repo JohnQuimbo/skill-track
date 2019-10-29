@@ -4,6 +4,7 @@ import './App.css';
 import Skill from "./Skill"
 import Navbar from "./Navbar"
 
+
 const skills = [
   { name : "Drums", 
     imgUrl : "https://image.flaticon.com/icons/png/512/92/92997.png" 
@@ -82,17 +83,30 @@ class App extends React.Component {
   constructor(){
     super()    
     this.state = {
-      counts: []
+      counts: [],
+      show : false
     }
     this.incrementOne = this.incrementOne.bind(this)
+    this.showModal = this.showModal.bind(this)
   }
 
-  incrementOne = skill =>
-  this.setState(state => ({ counts: [...state.counts, skill] }));
+
+    showModal = () => {
+      this.setState({
+           show : true
+      });
+      console.log("fuck")
+    };
+      
+    incrementOne = skill => this.setState(state => ({ counts: [...state.counts, skill] }));
+    
+ 
+
   
   render(){
-    const { counts } = this.state;
-    console.log(counts)
+    const { counts , show } = this.state;
+    console.log(counts);
+
     return(
       <div className="App">
         {skills.map(skill => (
@@ -103,8 +117,11 @@ class App extends React.Component {
             level={
               counts.filter(skillCount => skillCount === skill.name).length
             }
-            onClick={() => this.incrementOne(skill.name)}
+            increment={() => this.incrementOne(skill.name)}        
+            showModal={this.showModal} 
+            show={show} 
           />
+
         ))}
           
 
