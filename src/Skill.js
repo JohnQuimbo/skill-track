@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from './Modal'
+import QuestButton from './QuestButton';
 
 function Skill(props){
     return(
@@ -8,8 +9,8 @@ function Skill(props){
         <h2>Level: {props.level}</h2>
         <img src ={props.imgUrl}/>
         <button className = "levelUp" onClick={props.increment}>Level Up!</button>
-        <button className = "questLog" onClick = {props.showModal}>Quests</button>
-        <Modal modalTruth={props.show} message ="PLEASE WORK"/>
+        <QuestButton />
+        <Modal message = {props.message}/>
     </div>
     )
 }
