@@ -82,6 +82,23 @@ html {
   float: left; 
 }
 
+.modal {
+  position: fixed;
+  z-index:9999;
+  top :0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: darkslategray;
+  color: white;
+  outline: none;
+  padding: 3.2rem;
+  text-align: center;
+}
+
+.modal .modalText{
+  color:white;
+}
   #nav {
     width: 100%;
     float: left;

@@ -27,9 +27,13 @@ export default class QuestButton extends React.Component {
         const { show } = this.state;
         if(this.state.show === true){
             return(
-                <div>
-                    <button onClick={this.onClose}>Close</button>
-                    <p>fuck</p>
+                <div className = "modal">
+                    <div className = "modalButton">
+                        <button onClick={this.onClose}>Close</button>
+                    </div>
+                    <div className = "modalText">
+                        <p>{this.props.message}</p>
+                    </div>
                 </div>
             )
         }

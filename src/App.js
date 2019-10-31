@@ -7,7 +7,7 @@ import Navbar from "./Navbar"
 
 const skills = [
   { name : "Drums", 
-    quests : "1. Grip sticks", 
+    quests : ["1. Grip sticks", " 2. Please work"], 
     imgUrl : "https://image.flaticon.com/icons/png/512/92/92997.png"
   },
   {
