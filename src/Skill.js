@@ -9,8 +9,7 @@ function Skill(props){
         <h2>Level: {props.level}</h2>
         <img src ={props.imgUrl}/>
         <button className = "levelUp" onClick={props.increment}>Level Up!</button>
-        <QuestButton />
-        <Modal message = {props.message}/>
+        <QuestButton messsage = {props.message}/>   
     </div>
     )
 }

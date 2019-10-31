@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from './Modal'
 
 export default class QuestButton extends React.Component {
     constructor(){
@@ -16,14 +15,27 @@ export default class QuestButton extends React.Component {
         console.log(this.state.show)
       };
 
+      onClose = e => {
+        this.setState({
+            show : false
+        })
+      };
+
      
       
     render() {
         const { show } = this.state;
+        if(this.state.show === true){
+            return(
+                <div>
+                    <button onClick={this.onClose}>Close</button>
+                    <p>fuck</p>
+                </div>
+            )
+        }
         return(
         <div>
             <button className = "questLog" onClick ={this.showModal}>Quests</button>
-            <Modal message = "fuck" modalTruth = {show}/>
         </div>
         )
     }
