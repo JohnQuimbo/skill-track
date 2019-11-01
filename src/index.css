@@ -97,7 +97,15 @@ html {
 }
 
 .modal .modalText{
-  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+  white-space: pre-wrap;
+  background: white;
+  border-radius: 8px;
+  display: inline-block;
+  border-style: groove;
+  padding: 10px;
+  border-color: black;
 }
   #nav {
     width: 100%;

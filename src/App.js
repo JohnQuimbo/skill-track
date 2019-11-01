@@ -7,7 +7,18 @@ import Navbar from "./Navbar"
 
 const skills = [
   { name : "Drums", 
-    quests : ["1. Grip sticks", " 2. Please work"], 
+    quests : ["1. Set up drum set", 
+              "2. Properly grip drum sticks",
+              "3. Hit the skin of the drums with proper technique",
+              "4. Use the kick pedal with proper technique",
+              "5. First song challenge: Wake Me Up When September Ends by Green Day",
+              "6. Play basic Rock beat",
+              "7. Hit the crash symbol with good technique",
+              "8. Learn a basic fill",
+              "9. Open vs. Closed hi-hat technique",
+              "10. Second song challenge: Back in Black by AC/DC",
+              
+             ], 
     imgUrl : "https://image.flaticon.com/icons/png/512/92/92997.png"
   },
   {
