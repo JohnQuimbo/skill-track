@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/life-scape/static/css/main.5cc05ace.chunk.css",
+    "main.js": "/life-scape/static/js/main.990c58ca.chunk.js",
+    "main.js.map": "/life-scape/static/js/main.990c58ca.chunk.js.map",
+    "runtime-main.js": "/life-scape/static/js/runtime-main.f5117822.js",
+    "runtime-main.js.map": "/life-scape/static/js/runtime-main.f5117822.js.map",
+    "static/js/2.0768cdba.chunk.js": "/life-scape/static/js/2.0768cdba.chunk.js",
+    "static/js/2.0768cdba.chunk.js.map": "/life-scape/static/js/2.0768cdba.chunk.js.map",
+    "index.html": "/life-scape/index.html",
+    "precache-manifest.c5c538097ecb19412a095f8fcab86d2f.js": "/life-scape/precache-manifest.c5c538097ecb19412a095f8fcab86d2f.js",
+    "service-worker.js": "/life-scape/service-worker.js",
+    "static/css/main.5cc05ace.chunk.css.map": "/life-scape/static/css/main.5cc05ace.chunk.css.map",
+    "static/media/logo.svg": "/life-scape/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5117822.js",
+    "static/js/2.0768cdba.chunk.js",
+    "static/css/main.5cc05ace.chunk.css",
+    "static/js/main.990c58ca.chunk.js"
+  ]
+}
