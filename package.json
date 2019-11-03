@@ -2,7 +2,7 @@
   "name": "life-scape",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JohnQuimbo.github.io/life-scape",
+  "homepage": "http://JohnQuimbo.github.io/skill-track",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
