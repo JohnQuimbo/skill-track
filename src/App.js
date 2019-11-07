@@ -14,7 +14,9 @@ class App extends React.Component {
     this.incrementOne = this.incrementOne.bind(this)
   }
 
-      
+  //test
+
+
   incrementOne = skill => this.setState(state => ({ counts: [...state.counts, skill] }));
     
  
